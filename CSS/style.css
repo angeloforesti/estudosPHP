@@ -50,4 +50,17 @@ h1 {
   input[type="submit"]:hover {
     background-color: #65d1fc;
   }
+
+  button {
+    background-color: #7455ff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #65d1fc;
+  }
   
