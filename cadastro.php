@@ -2,10 +2,10 @@
 //conexao com o banco de dados
 $serverName = "localhost";
 $username = "root";
-$password = "1234";
+$passwordDb = "1234";
 $dbname = "angelo";
 
-$conn = mysqli_connect($serverName, $username, $password, $dbname);
+$conn = mysqli_connect($serverName, $username, $passwordDb, $dbname);
 if(!$conn) {
     die("Falha na conexão: " . mysqli_connect_error());
 }
@@ -25,17 +25,23 @@ if(isset($_POST['submit'])) {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 // Fechamento da conexão com o banco de dados
 mysqli_close($conn);
-?>
 
 
-
-
-
-?>
-
-// foi criado um banco de dados no mysql workbench apos isso foi instalado o 
+/* foi criado um banco de dados no mysql workbench apos isso foi instalado o 
 php na maquina via donwload no ite do php ajustado o mesmo nas variaveis do sistema, 
 alterei o php.ini na pasta de instalação do php nas linhas
 "extension=mysqli descomentada
@@ -45,4 +51,12 @@ mysqli.default_password=password conforme BD
 mysqli.default_port=3306" conforme BD
 iniciEI o servidor pelo cmd no caminho cd C:\Users\angel\OneDrive\Área de Trabalho\estudosPHP
 apos isso no cmd foi escrito php -S localhost:8000 para iniciar o servidor local.
-conexao funcionou e salvou
+conexao funcionou e salvou */
+
+?>
+
+
+
+
+
+
