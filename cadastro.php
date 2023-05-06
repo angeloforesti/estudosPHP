@@ -51,7 +51,7 @@ mysqli.default_password=password conforme BD
 mysqli.default_port=3306" conforme BD
 iniciEI o servidor pelo cmd no caminho cd C:\Users\angel\OneDrive\Área de Trabalho\estudosPHP
 apos isso no cmd foi escrito php -S localhost:8000 para iniciar o servidor local.
-conexao funcionou e salvou */
+conexao funcionou e salvou. */
 
 ?>
 
